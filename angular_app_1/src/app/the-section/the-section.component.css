@@ -1,0 +1,165 @@
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Typography */
+h1,
+h2,
+h3 {
+    font-weight: 400;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+/* Layout */
+.container {
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/*About*/
+#about {
+    text-align: center;
+    margin-top: 2em;
+}
+
+#about p {
+    font-size: 1.2rem;
+}
+
+iframe {
+    max-width: 100%;
+    margin-top: 1em;
+}
+
+/* Shopping */
+#shopping .box {
+    float: none;
+    text-align: center;
+    width: 100%;
+}
+
+.box a {
+    text-decoration: none;
+}
+
+.box img {
+    margin: 0 auto;
+    border-radius: 2px;
+}
+
+.box h3 {
+    color: #8b4513;
+    font-weight: 700;
+}
+
+@media (min-width: 800px) {
+    #shopping .box {
+        float: left;
+        text-align: center;
+        width: 30%;
+        padding: 0.75em;
+        padding-left: 1em;
+    }
+}
+
+/* Testimonials */
+#boxes {
+    color: #ffffff;
+}
+
+#feature {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    max-width: 400px;
+    margin: 0 auto 3rem auto;
+    border-bottom: 0.2rem solid #ffffff;
+}
+
+.testimonials {
+    background-color: #bf935a;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.testimonials p {
+    padding: 1em;
+}
+
+@media (min-width: 800px) {
+    .container-flex {
+        display: flex;
+    }
+    .test1 {
+        width: 32%;
+    }
+    .test2 {
+        width: 32%;
+    }
+    .test3 {
+        width: 32%;
+    }
+}
+
+/* Contact*/
+#contact {
+    background-color: #815e32;
+    color: #ffffff;
+    padding-top: 2em;
+}
+
+.contact-title {
+    text-align: center;
+}
+
+.contact-title h2 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.contact-title p {
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-links a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: #ffffff;
+    padding: 0.25em 0;
+}
+
+.contact-links a:hover,
+.contact-links a:focus {
+    color: #b67b5e;
+}
+
+@media (min-width: 800px) {
+    .contact-title h2 {
+        font-size: 3rem;
+    }
+    .contact-title p {
+        font-size: 2rem;
+    }
+    .contact-links {
+        flex-direction: row;
+        justify-content: center;
+    }
+    .contact-links a {
+        margin: 0 1em;
+    }
+}
