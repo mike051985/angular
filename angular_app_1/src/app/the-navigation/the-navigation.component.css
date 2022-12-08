@@ -56,6 +56,10 @@ nav {
     padding-left: 1.5rem;
 }
 
+.social-icons {
+    display: none;
+}
+
 .links {
     height: 0;
     overflow: hidden;
@@ -93,5 +97,16 @@ nav {
     .links a:hover {
         padding: 0;
         background: transparent;
+    }
+    .social-icons {
+        display: flex;
+    }
+    .social-icons a {
+        margin: 0 0.5rem;
+        color: #8b4513;
+        transition: all 0.3s linear;
+    }
+    .social-icons a:hover {
+        color: #815e32;
     }
 }
