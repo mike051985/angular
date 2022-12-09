@@ -1,3 +1,4 @@
+
 img {
     max-width: 100%;
     display: block;
@@ -38,7 +39,7 @@ iframe {
     margin-top: 1em;
 }
 
-/* Shopping */
+/* Shopping 
 #shopping .box {
     float: none;
     text-align: center;
@@ -67,9 +68,8 @@ iframe {
         padding: 0.75em;
         padding-left: 1em;
     }
-}
-
-/* Testimonials */
+}*/
+/* Testimonials 
 #boxes {
     color: #ffffff;
 }
@@ -106,9 +106,9 @@ iframe {
     .test3 {
         width: 32%;
     }
-}
+}*/
 
-/* Contact*/
+/* Contact
 #contact {
     background-color: #815e32;
     color: #ffffff;
@@ -162,4 +162,4 @@ iframe {
     .contact-links a {
         margin: 0 1em;
     }
-}
+}*/
