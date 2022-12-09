@@ -6,13 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./the-navigation.component.css']
 })
 export class TheNavigationComponent {
+  /*
   showLinked: boolean = false;
 
-  showLink() {
+  showLinks() {
     return this.showLinked;
   }
 
   click() {
     this.showLinked = !this.showLinked
-  }
+  }*/
 }
