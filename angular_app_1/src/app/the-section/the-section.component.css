@@ -39,11 +39,13 @@ iframe {
     margin-top: 1em;
 }
 
-/* Shopping 
+/* Shopping */
 #shopping .box {
-    float: none;
+    float: left;
     text-align: center;
-    width: 100%;
+    width: 30%;
+    padding: 0.75em;
+    padding-left: 1em;
 }
 
 .box a {
@@ -60,16 +62,15 @@ iframe {
     font-weight: 700;
 }
 
-@media (min-width: 800px) {
+@media (max-width: 800px) {
     #shopping .box {
-        float: left;
-        text-align: center;
-        width: 30%;
-        padding: 0.75em;
-        padding-left: 1em;
+    float: none;
+    text-align: center;
+    width: 100%;
     }
-}*/
-/* Testimonials 
+}
+
+/* Testimonials */
 #boxes {
     color: #ffffff;
 }
@@ -93,22 +94,7 @@ iframe {
     padding: 1em;
 }
 
-@media (min-width: 800px) {
-    .container-flex {
-        display: flex;
-    }
-    .test1 {
-        width: 32%;
-    }
-    .test2 {
-        width: 32%;
-    }
-    .test3 {
-        width: 32%;
-    }
-}*/
-
-/* Contact
+/* Contact*/
 #contact {
     background-color: #815e32;
     color: #ffffff;
@@ -131,8 +117,9 @@ iframe {
 
 .contact-links {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
 }
 
 .contact-links a {
@@ -141,6 +128,7 @@ iframe {
     font-size: 2.5rem;
     color: #ffffff;
     padding: 0.25em 0;
+    margin: 0 1em;
 }
 
 .contact-links a:hover,
@@ -148,7 +136,7 @@ iframe {
     color: #b67b5e;
 }
 
-@media (min-width: 800px) {
+@media (max-width: 800px) {
     .contact-title h2 {
         font-size: 3rem;
     }
@@ -156,10 +144,7 @@ iframe {
         font-size: 2rem;
     }
     .contact-links {
-        flex-direction: row;
+        flex-direction: column;
         justify-content: center;
     }
-    .contact-links a {
-        margin: 0 1em;
-    }
-}*/
+}
